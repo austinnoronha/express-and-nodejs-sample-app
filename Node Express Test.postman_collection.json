@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "38205046-3736-4da3-8be1-b328a8656324",
+		"name": "Node Express Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "13818108"
+	},
+	"item": [
+		{
+			"name": "GET Homepage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/users"
+			},
+			"response": []
+		},
+		{
+			"name": "POST Create a User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"{{$randomUUID}}\",\r\n    \"fullname\": \"{{$randomFullName}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/users"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Fetch User by param:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/users/UID00001"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Display param:email",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/users/display/austin@domain.com"
+			},
+			"response": []
+		}
+	]
+}
