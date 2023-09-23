@@ -20,7 +20,10 @@
   </a>
 </p>
 
-> This is a simple node express chat app (for learning only) that you can use as a starter project template. It includes websockets for chat connectivity to and fro from server - browser.
+> This is a simple express & node.js app (for learning only) that you can use as a starter project project to learn. 
+It includes jade views, routers index & users, server running on port 3000.
+
+Also additionally I have added a POSTMAN test collection.
 
 ### 🏠 [Homepage](https://github.com/austinnoronha/express-and-nodejs-sample-app)
 
@@ -69,4 +72,4 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2023 [Austin Noronha](https://github.com/austinnoronha).<br />
-This project is [CreativeCommons](https://github.com/austinnoronha/express-and-nodejs-sample-app.git/blob/main/LICENSE) licensed.
+This project is [CreativeCommons](https://github.com/austinnoronha/express-and-nodejs-sample-app/blob/main/LICENSE.txt) licensed.
